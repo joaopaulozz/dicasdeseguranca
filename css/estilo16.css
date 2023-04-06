@@ -10,20 +10,12 @@ h1 {
     color: #000000;
     font-size: 1.6rem;
   
-  }
-h2 {
+}
+
+h2, h3 {
     text-align: center;
-    display: flex;
-    /*isso centraliza o texto horizontalmente*/
     justify-content: center;
-  
-    /*isso centraliza o texto verticalmente*/
-    align-items: center;
-    
-    width: 900px;
-    height: -200px;
     color: #000000;
-    font-size: 0.8rem;
 }
 h5 {
    
@@ -33,26 +25,10 @@ h5 {
         justify-content: center;
       
         /*isso centraliza o texto verticalmente*/
-        align-items: center;
-      
-        height: 250px;
         color: #000000;
         font-size: 0.9rem;
         background: #717a8a;
      
-}
-h3{
-    display: flex;
-    /*isso centraliza o texto horizontalmente*/
-    justify-content: center;
-  
-    /*isso centraliza o texto verticalmente*/
-    position: absolute;
-    width: 400px;
-    height: -100px;
-    right: 1000px;
-    color: #000000;
-    font-size: 0.8rem;
 }
 
 #seta2 {
