@@ -3,16 +3,12 @@ body{
 }
 
 figure{
-    position: fixed;
-    text-align: right;
-    left: 1070;
+    text-align: center;
     top: 30;
 }
 
 body{
     background-image: url(../imagens/fundocerto02.png);
-    width: 1280px;
-    height: 500px;
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
