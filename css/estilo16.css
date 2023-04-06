@@ -1,7 +1,5 @@
 body {
     background-image: url(../imagens/ta.png);
-    width: 1000px;
-    height: 750px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,7 +44,7 @@ h5 {
         /*isso centraliza o texto verticalmente*/
         align-items: center;
       
-        height: 150px;
+        height: 250px;
         color: #000000;
         font-size: 0.9rem;
         background: #717a8a;
@@ -66,12 +64,6 @@ h3{
     font-size: 0.8rem;
 }
 
-#seta1 {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    top: 690px;
-}
 #seta2 {
     position: absolute;
     width: 70px;
