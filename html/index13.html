@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link href="../css/estilo13.css" rel="stylesheet">
+</head>
+<body>                                              
+<header>
+    <h1>FIREWALL</h1>
+</header>
+    <hr>
+    <br>
+    <section><div id="imagem"><img src="../imagens/firewall.jpg" alt="login" title="FIREWALL" width="200"></div></section>
+    <header><h2>O QUE É:</h2> </header>
+    <p>Um firewall é um dispositivo de segurança que monitora o tráfego de rede de entrada e saída e decide permitir ou bloquear atividades específicas (para que não ocorram invasões ao sistema). Os firewalls têm sido a linha de frente da defesa na segurança de rede e Internet há mais de 25 anos. Conseguem realizar essas operações por conta de um conjunto definido de regras de segurança. Eles colocam uma barreira (“parede”) entre redes internas protegidas e controladas que podem ser redes externas confiáveis ou não, como o gerenciamento de tráfego da Web. 
+     <br>
+     <br>
+    Normalmente, são usados para delimitar as fronteiras de uma rede privada ou dos dispositivos host dela. Assim, os firewalls são uma ferramenta de segurança na categoria mais ampla de controle de acesso de usuário, criando "pontos de obstrução" para afunilar o tráfego da Web, em que ele é analisado de acordo com um conjunto de parâmetros programados. 
+        </p>
+   <hr>
+    
+
+   <header><h2>COMO FUNCIONA?</h2></header>
+   <p>O firewall decide qual tráfego de rede pode passar e qual tráfego é considerado perigoso. Basicamente, ele atua como um filtro, separando o que é bom do que é ruim, o confiável do não confiável. Protegem as redes privadas e os dispositivos de endpoint contidos nelas, que são conhecidos como hosts de rede. Os hosts de rede são dispositivos que "conversam" com outros hosts na rede. Eles enviam e recebem entre redes internas, bem como saída e entrada entre redes externas.
+<br>
+<br>
+    Porém, a Internet é segmentada em sub-redes para garantir segurança e privacidade. Os segmentos básicos de sub-rede são os seguintes:
+    <br>
+    <br>
+    -<strong> Redes públicas externas </strong> normalmente consistem na Internet pública/global ou em várias fontes extranets;
+    <br>
+    - <strong> Rede privada interna </strong>define uma rede doméstica, intranets corporativas e outras redes "fechadas";
+    <br>
+    - <strong> Redes de perímetro </strong> detalham redes de fronteira que consistem de hosts bastiões: hosts de computador dedicados com segurança reforçada que estão prontos para resistir a ataques externos.
+    <br>
+    <br>
+    Esse sistema também é composto pelos roteadores de filtragem, são computadores de gateway especializados colocados em uma rede para segmentá-los. São conhecidos como firewalls domésticos no nível de rede, sendo eles: 
+    <br>
+    <br>
+    - <strong> Firewalls de host com filtragem </strong> usam um único roteador de filtragem entre as redes externas e internas. Essas são as duas sub-redes desse modelo;
+    <br>
+    - <strong> Firewalls de sub-rede com filtragem </strong> usam dois roteadores de filtragem: um conhecido como roteador de acesso entre as redes externa e de perímetro e outro conhecido como roteador interno entre o perímetro e a rede interna;
+    <br>
+    -  <strong>Firewalls de rede </strong> envolvem a aplicação de um ou mais firewalls entre redes externas e redes privadas internas;
+    <br>
+    - <strong>Firewalls de host ou "firewalls de software"</strong> envolvem o uso de firewalls em dispositivos de usuários individuais e outros endpoints de rede privada como uma barreira entre dispositivos na rede.
+    <br>
+    <br>
+    Um firewall de rede requer configuração para um amplo escopo de conexões, enquanto um firewall de host pode ser adaptado para atender às necessidades de cada máquina. No entanto, os firewalls de host exigem mais esforço para serem personalizados.
+    </h5>
+
+    <hr>
+
+   <header><h2>O QUE UM FIREWALL FAZ?</h2></header>
+   <p>Como a filtragem de tráfego pode ser um conjunto de regras estabelecido pelos proprietários de uma rede privada, isso cria casos de uso personalizados para firewalls. Os casos de uso populares envolvem o gerenciamento dos seguintes itens:
+    <br>
+    <br>
+    - <strong>Infiltração de agentes mal-intencionados:</strong> conexões indesejadas de uma fonte de comportamento estranho podem ser bloqueadas. Isso pode evitar espionagem e ameaças persistentes avançadas (APTs);
+    <br>
+    - <strong>Controles para pais:</strong> os pais podem impedir que seus filhos vejam conteúdo explícito na Web;
+    <br>
+    - <strong>Restrições de navegação na Web no local de trabalho:</strong> os empregadores podem impedir que os funcionários usem as redes da empresa para acessar determinados serviços e conteúdo, como mídia social;
+    <br>
+    - <strong>Intranet controlada nacionalmente:</strong> os governos nacionais podem bloquear o acesso de residentes internos a conteúdo e serviços da Web que são potencialmente dissidentes à liderança de uma nação ou a seus valores.
+    </p>
+
+    <hr>
+    <section><div id="imagem"><img src="../imagens/parede.png" alt="login" title="FIREWALL" width="200"></div></section>
+<hr>
+    <header><h2>TIPOS DE FIREWALL:</h2></header>
+    <p>Os tipos de firewall são diferenciados por sua abordagem de:
+        <br>
+        <br>
+        - Rastreamento de conexão;
+        <br>
+        - Regras de filtragem;
+        <br>
+        - Registros de auditoria; 
+        <br>
+        <br>
+        <strong>Firewall de filtragem estática de pacotes:</strong>
+        Também conhecidos como firewalls de inspeção sem estado, operam na camada de rede OSI (camada 3). Oferecem filtragem básica verificando todos os pacotes de dados individuais enviados por uma rede, com base na origem deles e para onde estão tentando ir. Particularmente, as conexões aceitas anteriormente não são rastreadas. Isso significa que cada conexão deve ser aprovada novamente com cada pacote de dados enviado.
+        <br>
+        <br>
+       <strong>Firewall de gateway em nível de circuito:</strong>
+Os gateways de nível de circuito operam no nível de sessão (camada 5). Esses firewalls verificam pacotes funcionais em uma tentativa de conexão e, se funcionarem bem, permitirão uma conexão aberta persistente entre as duas redes. O firewall para de supervisionar a conexão depois que isso ocorre.
+        <br>
+        <br>
+        <strong> Firewall de inspeção com estado: </strong>
+        Os firewalls de inspeção com estado, também chamados de firewalls de filtragem dinâmica de pacotes, se diferenciam da filtragem estática por sua capacidade de monitorar conexões em andamento e se lembrar das anteriores. Anteriormente, operavam na camada de transporte (camada 4), mas, hoje em dia, esses firewalls podem monitorar muitas camadas, inclusive a de aplicativo (camada 7).
+        <br>
+        <br>
+        Assim como o firewall de filtragem estática, os firewalls de inspeção com estado permitem ou bloqueiam o tráfego com base em propriedades técnicas, como protocolos de pacotes específicos, endereços IP ou portas. No entanto, esses firewalls também rastreiam e filtram exclusivamente com base no estado das conexões usando uma tabela de estados.
+        <br>
+        <br>
+       <strong>Firewall de proxy:</strong>
+Os firewalls de proxy, também conhecidos como firewalls de nível de aplicativo (camada 7), são únicos no que se refere à leitura e à filtragem de protocolos de aplicativos. Eles combinam inspeção em nível de aplicativo, ou "inspeção profunda de pacotes (DPI)" e inspeção com estado.
+Um firewall de proxy é tão parecido com uma barreira física real quanto possível. Diferentemente de outros tipos de firewalls, ele atua como dois hosts adicionais entre redes externas e computadores host internos, com um como representante (ou "proxy") para cada rede.
+<br>
+<br>
+A filtragem se baseia em dados de nível de aplicativo, em vez de apenas endereços IP, portas e protocolos básicos de pacotes (UDP, ICMP), como ocorre em firewalls baseados em pacotes. A leitura e a compreensão de FTP, HTTP, DNS e outros protocolos permitem a investigação mais aprofundada e a filtragem cruzada de muitas características de dados diferentes.
+        <br>
+        <br>
+        <strong>Firewall de última geração (NGFW):</strong>
+Os firewalls de última geração específicos para determinadas ameaças foram projetados para examinar e identificar ameaças específicas, como malware avançado, em um nível mais granular. Mais usados por empresas e redes sofisticadas, eles fornecem uma solução holística para filtrar ameaças.
+        <br>
+        <br>
+        <strong> Firewall híbrido:</strong>
+Como o nome indica, os firewalls híbridos usam dois ou mais tipos de firewall em uma única rede privada.
+</p>
+
+<hr>
+
+<header><h2>COMO USAR A PROTEÇÃO FIREWALL?</h2></header>
+<p>A configuração e a manutenção adequadas do firewall são essenciais para manter sua rede e seus dispositivos protegidos. Veja algumas dicas para orientar suas práticas de segurança de rede de firewall:
+    <br>
+    <br>
+    - <strong>Sempre atualize seus firewalls o mais rápido possível:</strong> os patches de firmware e software mantêm o firewall atualizado contra quaisquer vulnerabilidades recém-descobertas. Em geral, os usuários de firewall pessoal e doméstico podem atualizar imediatamente com segurança. Organizações maiores podem precisar verificar primeiro a configuração e a compatibilidade da rede.
+    <br>
+    <br>
+    - <strong> Use proteção antivírus:</strong> por si sós, os firewalls não são projetados para impedir malware e outras infecções. Eles podem ultrapassar as proteções do firewall, e você precisará de uma solução de segurança projetada para desabilitá-los e removê-los.
+    <br>
+    <br>
+    - <strong> Limite portas e hosts acessíveis com uma lista de permissões:</strong>padrão para negação de conexão para tráfego de entrada. Limite as conexões de entrada e saída a uma lista de permissões restrita de endereços IP confiáveis. Reduza os privilégios de acesso do usuário às necessidades.
+    <br>
+    <br>
+    - <strong> Rede segmentada:</strong> o movimento lateral de agentes mal-intencionados é um perigo claro que pode ser refreado com a limitação interna da comunicação cruzada.
+    <br>
+    <br>
+    - <strong> Tenha redundâncias de rede ativas para evitar tempo de inatividade:</strong> backups de dados para hosts de rede e outros sistemas essenciais podem evitar perda de dados e produtividade durante um incidente.
+</p>
+
+<hr>
+
+     
+     <header><h2>DIFERENÇA ENTRE FIREWALL E ANTIVÍRUS:</h2></header>
+     <P>Bem no popular, firewall é um muro de proteção e o antivírus é a “polícia” do seu sistema, se os invasores ultrapassarem o muro, só poderão ser impedidos por essa “força” de segurança digital.
+       <br>
+       <br>
+     A proteção oferecida por um firewall limita-se a ajudar na proteção do computador e dados gerenciando o tráfego de rede. Ele faz isso bloqueando o tráfego de rede de entrada não solicitado ou indesejado. Ele valida o acesso fazendo uma varredura do tráfego de entrada para verificar se há algo malicioso, como hackers e malwares, que podem infectar o computador.
+    </P>
+    <hr>
+        <header><h2>VÍDEO EXPLICATIVO:</h2></header>
+    <section><div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/m94KY64Rt18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>></div> </section>
+    <hr>
+     <header><H2>FUNCIONAMENTO DO FIREWALL:</H2></header>
+    <section> <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/TfpMl9xWWwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>  </section>
+
+ <!-- Plugin VLibras -->
+ <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+<!-- Plugin VLibras -->
+
+<!-- Acessibilidade -->
+<script>(function(d){var s = d.createElement("script");s.setAttribute("data-account", "o3osjIj1Oe");s.setAttribute("src", "https://cdn.userway.org/widget.js");(d.body || d.head).appendChild(s);})(document)</script><noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org">website accessibility</a></noscript>
+
+<a href="../index.html">Voltar</a>
+
+<header><strong><h6>AUTORIA: ANA GUERREIRO E JÚLIA MARCELINO</h6></strong></header>
+</body>
+</html>

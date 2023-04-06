@@ -1,0 +1,78 @@
+body{ 
+    background-color:rgb(221, 219, 216);
+}
+
+figure{
+    position: fixed;
+    text-align: right;
+    left: 1070;
+    top: 30;
+}
+
+body{
+    background-image: url(../imagens/fundocerto02.png);
+    width: 1280px;
+    height: 500px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    color: rgb(73, 69, 69);
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium';
+  }
+  
+  p {
+    text-align: left;
+}
+
+.imagem{
+    text-align: center;
+}
+
+.protecao{
+    text-align: center;
+}
+
+.ultima{
+    text-align: center;
+}
+
+.video{
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: rgb(73, 69, 69);
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+  }
+
+  .mapa{
+    text-align: center;
+}
+
+.seta{
+        text-align: left;
+    
+}
+
+.fim {
+    font-size: 17px;
+    color: rgb(227, 5, 5);
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+  }

@@ -1,0 +1,49 @@
+.central{
+   text-align: center;
+   color:black;
+   font-family: Helvetica, sans-serif;
+   text-shadow: 10px;
+   font-size: 20px;
+
+}
+
+.posicao{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}
+
+
+.senai {
+   text-align: center;
+   
+}
+
+h2{
+    font-weight: bold;
+    color: crimson;
+    box-shadow: 0 0 30px;
+}
+
+h3{
+    font-family: sans-serif;
+    text-decoration: solid;
+    text-align: justify;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    border: 10px;
+}
+
+h1{
+    font-family: cursive;
+}
+
+h5{
+    text-align: right;
+    color: rgb(206, 12, 12);
+    font-weight: bold;
+    font-style: oblique;
+}

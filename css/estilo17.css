@@ -1,0 +1,58 @@
+h1 { 
+    
+    text-align: center;
+   
+}
+
+p, h3, h1 {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+
+
+
+
+p, h3, li {
+
+    margin-left: 5cm;
+    margin-right: 6cm;
+    
+
+
+
+}
+
+body {
+
+    background-image: url("../imagens/cool.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+ }
+ 
+ p, li {
+
+    text-align: justify;
+
+ }
+
+ figure {
+
+    text-align: center;
+
+ }
+
+
+ a, header {
+
+    text-align: center;
+
+ }
+
+
+
+
+ 

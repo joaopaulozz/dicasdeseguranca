@@ -1,0 +1,20 @@
+header {
+    text-align:center;
+    color: rgb(171, 164, 162);
+    background-color: rgb(246, 24, 24);
+}
+#imagem {
+    text-align: center;
+}
+.video {
+    text-align: center;
+}
+section {
+    text-align: center;
+}
+body {
+    background-color: rgb(183, 185, 185);
+            background-position:center; 
+            background-repeat:no-repeat;
+            background-size:cover; 
+}

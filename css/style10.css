@@ -1,0 +1,47 @@
+h1 {
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0.01%;
+}
+
+section {
+    text-align:center;
+}
+
+body {
+    background-image: url(../imagens/fundo10.png);
+    width: 1250px;
+    height: 2290px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h4 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.paragrafo{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+figure{
+    text-align: center;
+}
+
+.video{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.senai{
+    position: absolute;
+    top: 0.1%;
+    left: 90%;
+    margin-right: -50%;
+}
+
+.voltar{
+    text-align: left;
+    }
+

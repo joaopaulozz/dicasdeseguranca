@@ -1,0 +1,80 @@
+ h2, h3 {
+    font-family: Georgia;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0 0 30px #ff0000;
+    font-family: 'Helvetica Neue', sans-serif;
+    
+}
+body {
+    background-color: rgb(72, 71, 71);
+    background-image: linear-gradient(to right, #ff0000, #161616);
+}
+
+
+nav {
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+    background-color: red; width: 1320px; height: 75px; border: none;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 8%;
+    font-size: 32px;
+    font-weight: 700;
+    box-shadow: 0 0 30px #ff3030;
+    text-shadow: 5px 5px 5px #7e1919;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: white;
+
+    
+}
+
+.imagem {
+    text-align: center;
+    
+}
+p {
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+ol {
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+li {
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+iframe {
+    text-align: center;
+}
+hr {
+    width: 50%;
+    height: 2px;
+    background-color: white;
+    box-shadow: 0 0 30px #ffffff;
+}
+header {
+    text-align: center;
+}
+@keyframes move-up {
+    0% {
+      transform: translateY(50);
+    }
+    100% {
+      transform: translateY(50px);
+    }
+  }
+  
+  .element {
+    animation: move-up 1s ease-in-out infinite;
+  }
+  button{
+    box-shadow: #ff0000;
+    width: 70px;
+    height: 50px;
+    background-color: #ffffff;
+  }

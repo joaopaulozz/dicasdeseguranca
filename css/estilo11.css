@@ -1,0 +1,31 @@
+h1,h5,a{
+    text-align:center;
+}
+
+mark{
+    background-color: rgb(209, 210, 210);
+}
+
+figure {
+    text-align:center;
+}
+
+body{ 
+    background-color: rgb(191, 192, 194);
+    text-align:center;
+}
+
+section{
+   
+    text-align:center;
+}
+
+.paragrafo{
+    
+    font-family:georgia;
+}
+
+.texto{
+    text-align:left;
+}
+
