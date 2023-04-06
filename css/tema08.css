@@ -1,7 +1,8 @@
 .imagem {
+    text-align: center;
+}
+.seta {
     text-align: right;
-    height: 0px;
-    left: 4px;
 }
 body {
     background-color: #000000;

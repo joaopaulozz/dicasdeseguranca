@@ -1,56 +1,53 @@
 mark{
     background-color: #4f5860;
-    }
+}
 
-    h1{text-align:start;
-        font-size: 30px;}
+h1{
+    font-size: 30px;
+}
 
-     body{
-     background-color: #b30000;
-     -webkit-text-fill-color: rgb(255, 255, 255);
+body{
+    background-color: #b30000;
+    -webkit-text-fill-color: rgb(255, 255, 255);
     font-family: monospace;
-    
-    }
-    a:link {
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-        }
-    a:visited {
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-        }
-    a:hover {
-        color: rgb(255, 0, 0);
-        text-decoration: none;
-        }
-    a:active {
-        color: rgb(0, 0, 0);
-        text-decoration: none;
-        }
+}
 
-    figure{
-            text-align: right;
-            height: 0px;
-            left: 4px;
-        }
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
 
-    ul{
-        color: aliceblue;
-    } 
-    
-    .grup{
-        width: 99.7%;
-        left: 50%;
-        background-color: #75828D;
-    }
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
 
-    .pag {
-        width: 30%;
-        left: 34%;
-        background-color: black;
-    }
+a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+figure{
+    text-align: right;
+}
+
+ul{
+    color: aliceblue;
+} 
     
-    .direita{
-        text-align: right;
-        position: ;
-    }
+.grup{
+    background-color: #75828D;
+}
+
+.pag {
+    background-color: black;
+}
+    
+.direita{
+    text-align: right;
+}
