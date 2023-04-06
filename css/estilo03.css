@@ -16,13 +16,10 @@ nav {
     background-color: rgb(255, 255, 255);
 }
 h1 {
-    background-color: red; width: 1320px; height: 75px; border: none;
+    background-color: red;
+    border: none;
     text-align: center;
-    margin-top: 2%;
-    margin-left: 15%;
-    margin-right: 8%;
     font-size: 32px;
-    font-weight: 700;
     box-shadow: 0 0 30px #ff3030;
     text-shadow: 5px 5px 5px #7e1919;
     font-family: 'Helvetica Neue', sans-serif;
@@ -76,5 +73,8 @@ header {
     box-shadow: #ff0000;
     width: 70px;
     height: 50px;
-    background-color: #ffffff;
+    background-color: #fcfcfc;
+    border-radius: 20%;
+    color: #000000;
+
   }
